@@ -109,4 +109,20 @@ public class Complex {
     public double lengthSQ() {
         return re * re + im * im;
     }
+
+    /**
+     * Get the real part of the complex number.
+     * @return the real part
+     */
+    public double getRe() {
+        return re;
+    }
+
+    /**
+     * Get the imaginary part of the complex number.
+     * @return the imaginary part
+     */
+    public double getIm() {
+        return im;
+    }
 }
